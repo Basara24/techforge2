@@ -1,0 +1,23 @@
+$primary: #fff;
+$secundary: #ccc;
+$clean: #444;
+$margin: #567;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #fff;
+    padding: $margin;
+    .header-nav{
+        float: right;
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+            }
+        }
+    }
+}
